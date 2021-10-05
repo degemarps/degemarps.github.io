@@ -11,30 +11,95 @@
             background-color: #94d2bd;
         }
 
-        h1 {
-            color: #2C2891;
-        }
-
         h2 {
             color: #2C2891;
+            font-size: 25px;
+            width: 100%;
         }
 
+        #Nome {
+            font-size: 40px;
+            text-align: center;
+        }
+
+        #Eu {
+            float: center;
+            border: thin solid;
+            border-radius: 10%;
+        }
+
+        #indice {
+            text-align: left;
+            font-size: 20px;
+        }
+
+        #titulo-conhecimentos {
+            list-style: none;
+            text-align: center;
+            width: 100%;
+            margin: 0%;
+            padding: 0%;
+            margin-top: 1.5%;
+            margin-bottom: 1%;
+        }
+
+        #titulo-habilidades {
+            list-style: none;
+            text-align: center;
+            width: 100%;
+            margin: 0%;
+            padding: 0%;
+            margin-top: 1.5%;
+            margin-bottom: 1%;
+        }
+
+        #titulo-aprendendo {
+            list-style: none;
+            text-align: center;
+            width: 100%;
+            margin: 0%;
+            padding: 0%;
+            margin-top: 1.5%;
+            margin-bottom: 1%;
+        }
+
+        .Conhecimentos {
+            list-style: none;
+            text-align: center;
+            width: 100%;
+            margin: 0%;
+            padding: 0%;
+
+        }
+
+        .Habilidades {
+            list-style: none;
+            text-align: center;
+            width: 100%;
+            margin: 0%;
+            padding: 0%;
+        }
+
+        .Aprendendo {
+            list-style: none;
+            text-align: center;
+            width: 100%;
+            margin: 0%;
+            padding: 0%;
+        }
     </style>
 
 </head>
 
 <body>
 
-    <h1>Meu Portfólio</h1>
-
-    <h3>Degemar Pereira da Silva</h3>
+    <h1 id="Nome">Degemar Pereira da Silva</h1>
 
     <img src="./foto-pessoal.jpg" alt="Foto Degmear atual" width="350px" id="Eu">
 
-    <h2>Estrutura do portfólio</h2>
-
-    <ol>
+    <ol id="indice">
         <li><a href="#Resumo">Sobre mim</a></li>
+        <li><a href="#Contatos">Contatos</a></li>
         <li><a href="#Conhecimentos">Conhecimentos</a></li>
     </ol>
 
@@ -42,16 +107,20 @@
 
     <h2>Resumo Sobre Mim</h2>
 
-    <p id="Resumo">Me chamo <a href="#Eu">Degemar</a>, tenho 23 anos, sou <em>brasileiro</em> e residente da cidade de <em>Governador Dix. Sept Rosado/RN</em>. <br>
-        Sou <strong>tecnólogo em redes de computadores</strong> pelo IFRN e atualmente 
-        estou <strong>mestrando em Tecnologia da Informação</strong> na UFRN. Além disso, sou estudante de <strong>desenvolvimento 
-        web full stack</strong> na Trybe. <br>
-        Tenho experiência profissional na área de <strong>suporte técnico</strong> e <strong>docência</strong>, tanto em nível técnico como em nível superior, 
+    <p id="Resumo">Me chamo <a href="#Eu">Degemar</a>, tenho 23 anos, sou <em>brasileiro</em> e residente da cidade de
+        <em>Governador Dix. Sept Rosado/RN</em>. <br>
+        Sou <strong>tecnólogo em redes de computadores</strong> pelo IFRN e atualmente
+        estou <strong>mestrando em Tecnologia da Informação</strong> na UFRN. Além disso, sou estudante de
+        <strong>desenvolvimento
+            web full stack</strong> na Trybe. <br>
+        Tenho experiência profissional na área de <strong>suporte técnico</strong> e <strong>docência</strong>, tanto em
+        nível técnico como em nível superior,
         na área de redes de computadores. <br>
-        Sou apaixonado por tecnologia em atualmente estou buscando a minha primeira oportunidade de atuar como desenvedor web.
+        Sou apaixonado por tecnologia em atualmente estou buscando a minha primeira oportunidade de atuar como
+        desenvedor web.
     </p>
 
-    <h2>Contatos</h2>
+    <h2 id="Contatos">Contatos</h2>
 
     <a href="https://www.linkedin.com/in/degemar-pereira-da-silva-464162128/" target="blank">Linkedin</a>
     <br>
@@ -59,26 +128,28 @@
 
     <br>
 
-    <h2 id="Conhecimentos">Conhecimentos</h2>
+    <h2 id="titulo-conhecimentos">Conhecimentos</h2>
 
-    <ul>
+    <ul class="Conhecimentos">
         <li>Redes de computadores</li>
         <li>Programação em Python</li>
         <li>Protocolos de Rede</li>
         <li>Tecnologia 5G</li>
     </ul>
 
-    <h2 id="Habilidades">Habilidades</h2>
+    <h2 id="titulo-habilidades">Habilidades</h2>
 
-    <ul>
+    <ul class="Habilidades">
+        </h2>
+
         <li><em>Ensino</em></li>
         <li>Buscando sempre colaborar com a equipe</li>
         <li>Sempre querendo aprender sobre diversas tecnologias</li>
     </ul>
 
-    <h2 id="Aprendendo">Aprendendo</h2>
+    <h2 id="titulo-aprendendo">Aprendendo</h2>
 
-    <ul>
+    <ul class="Aprendendo">
         <li>HTML</li>
         <li>CSS</li>
         <li>Javascript</li>
@@ -88,9 +159,10 @@
 
     <h2>Um Pouco mais Sobre Mim</h2>
 
-    <p>Sou uma pessoa apaixonada por Internet das Coisas, então um blog 
+    <p>Sou uma pessoa apaixonada por Internet das Coisas, então um blog
         que recomendo para saber um pouco mais sobre mim é este
-        <a href="https://medium.com/iotforall" target="blank">aqui</a>.<p>
+        <a href="https://medium.com/iotforall" target="blank">aqui</a>.
+    <p>
 
 </body>
 

@@ -4,9 +4,10 @@
 }
 
 body {
-  background-color: #6D8299;
+  background-color: #444444;
   line-height: 1;
   font-family: Arial, Helvetica, sans-serif;
+  color: white;
 }
 
 h2 {
@@ -99,10 +100,18 @@ h2 {
 #contato p{
   text-align: center;
   width: 100%;
-  margin: 0%;
-  padding: 0%;
-  margin-bottom: 1%;
+  margin-bottom: 5%;
+  margin-top: 70px;
   font-size: 18px;
+}
+
+#contato p a {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+#contato p a img {
+  width: 80px;
 }
 
 #habilidades {

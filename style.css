@@ -3,7 +3,8 @@ body {
 }
 
 #imagem-pessoal {
-  width: 1000px;
+  width: 200px;
+  border-radius: 10%;
 }
 
 .nav-wrapper{
@@ -18,6 +19,11 @@ body {
   margin-left: 2%;
 }
 
+.card {
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+
 .card-content {
   font-size: 20px;
 }
@@ -27,9 +33,45 @@ body {
   margin-top: 100px;
 }
 
+.apresentação-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.apresentação-interior {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagem {
+  margin-right: 20px;
+}
+
+#content-apresentação {
+  font-size: 20px;
+}
+
+.sobre-container {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.sobre-text-container {
+  display: flex;
+  justify-content: center;
+}
+
+.sobre-text {
+  width: 70%;
+}
+
 #sobre {
-  margin-bottom: 100px;
-  margin-top: 150px;
+  margin-bottom: 150px;
+  margin-top: 200px;
 }
 
 #sobre h2 {
@@ -41,24 +83,37 @@ body {
   text-align: justify;
 }
 
-#habilidades-content {
+#tecnologias-content {
   box-shadow: none;
-  margin-left: 13%;
+  display: flex;
+  justify-content: space-around;
 }
 
-#habilidades {
-  margin-bottom: 100px;
-  margin-top: 150px;
+#tecnologias {
+  margin-bottom: 150px;
+  margin-top: 200px;
 }
 
-#habilidades h2 {
+#tecnologias h2 {
   text-align: center;
   font-weight: 600;
 }
 
-#habilidades h3 {
-  font-size: 30px;
-  font-weight: 600;
+#contato {
+  margin-top: 250px;
+}
+
+.contato-container {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.links-contato {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
 }
 
 .page-footer {

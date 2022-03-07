@@ -1,136 +1,112 @@
 <!DOCTYPE html>
 
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Portfólio Web</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
 
-  <body>
-    <nav>
-      <section class="nav-wrapper">
-        <a class="brand-logo">Portifólio</a>
+<head>
+  <meta charset="UTF-8" />
+  <title>Portfólio Web</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li>
-            <a href="#sobre">Sobre mim</a>
-          </li>
-          <li>
-            <a href="#habilidades">Habilidades</a>
-          </li>
-          <li>
-            <a href="#contato">Contato</a>
-          </li>
-        </ul>
-      </section>
-    </nav>
+<body>
+  <nav>
+    <section class="nav-wrapper">
+      <a class="brand-logo">Portifólio</a>
 
-    <section id="apresentacao" class="container">
-      <div class="card horizontal">
-        <div class="card-image">
-          <img
-            id="imagem-pessoal"
-            class="rounded float-start"
-            src="./foto-pessoal.jpg"
-            alt="Foto Degmear atual"
-          />
-        </div>
-
-        <p id="content-1" class="card-content">
-          Me chamo <strong>Degemar Pereira da Silva</strong>, tenho 23 anos, sou
-          <em>brasileiro</em> e residente da cidade de
-          <em>Governador Dix. Sept Rosado/RN</em>. Sou estudante de
-          desenvolvimento web e sejam muito bem vindos ao meu porfifólio!
-        </p>
-      </div>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li>
+          <a href="#sobre">Sobre mim</a>
+        </li>
+        <li>
+          <a href="#tecnologias">Tecnologias</a>
+        </li>
+        <li>
+          <a href="#contato">Contato</a>
+        </li>
+      </ul>
     </section>
+  </nav>
 
-    <section id="sobre" class="container">
-      <div class="row">
-        <div class="card">
-          <h2 class="card-content card-title">Resumo Sobre Mim</h2>
+  <section id="apresentacao">
+    <div class="card">
+      <div class="apresentação-container">
+        <div class="apresentação-interior">
+          <div class="imagem">
+            <img id="imagem-pessoal" class="rounded float-start" src="./foto-pessoal.jpg" alt="Foto Degmear atual" />
+          </div>
 
-          <p class="card-content">
-            Sou <strong>tecnólogo em redes de computadores</strong> pelo IFRN e
-            atualmente estou
-            <strong>mestrando em Tecnologia da Informação</strong> na UFRN. Além
-            disso, sou estudante de
-            <strong>desenvolvimento web full stack</strong> na Trybe. Tenho
-            experiência profissional na área de
-            <strong>suporte técnico</strong> e <strong>docência</strong>, tanto
-            em nível técnico como em nível superior, na área de redes de
-            computadores. Sou apaixonado por tecnologia e atualmente estou
-            buscando a minha primeira oportunidade de atuar como desenvolvedor web.
+          <p id="content-apresentação">
+            Olá a todos! Me chamo <strong>Degemar Pereira da Silva</strong>. Sou estudante de
+            desenvolvimento web e sejam muito bem vindos ao meu porfifólio!
           </p>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section id="habilidades" class="container">
-      <div class="card">
-        <h2 class="card-content card-title">Habilidades</h2>
+  <section id="sobre">
+    <div class="card sobre-container">
+      <h2 class="card-content card-title">Resumo Sobre Mim</h2>
 
-        <div id="habilidades-content" class="card center row">
-          <section class="col s5">
-            <h3>Hard-Skills</h3>
-
-            <ul class="card-content">
-              <li>Python</li>
-              <li>Protocolos de redes</li>
-              <li>Ambiente Linux</li>
-              <li>Git e GitHub</li>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>Javascript</li>
-            </ul>
-          </section>
-
-          <section class="col s5">
-            <h3>Soft-Skills</h3>
-
-            <ul class="card-content">
-              <li>Colaborativo</li>
-              <li>Gosto e tenho capacidade de ensinar</li>
-              <li>Rápido aprendizado</li>
-              <li>Autodidata</li>
-              <li>Sempre buscando aprender novas tecnologias</li>
-            </ul>
-          </section>
-        </div>
+      <div class="sobre-text-container">
+        <p class="card-content sobre-text">
+          Sou <strong>tecnólogo em redes de computadores</strong> pelo IFRN e
+          atualmente estou
+          <strong>mestrando em Tecnologia da Informação</strong> na UFRN. Além
+          disso, sou estudante de
+          <strong>desenvolvimento web full stack</strong> na Trybe. Tenho
+          experiência profissional na área de
+          <strong>suporte técnico</strong> e <strong>docência</strong>, tanto
+          em nível técnico como em nível superior, na área de redes de
+          computadores. Sou apaixonado por tecnologia e atualmente estou
+          buscando a minha primeira oportunidade de atuar como desenvolvedor web.
+        </p>
       </div>
-    </section>
-    <footer id="contato" class="page-footer">
+    </div>
+  </section>
+
+  <section id="tecnologias">
+    <div class="card">
+      <h2 class="card-content card-title">Tecnologias</h2>
+
+      <div id="tecnologias-content">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="70px"
+          width="70px" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="70px"
+          width="70px" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="70px"
+          width="70px" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="70px"
+          width="70px" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="70px"
+          width="70px" />
+      </div>
+    </div>
+  </section>
+  <footer id="contato" class="page-footer">
+    <div class="contato-container">
+      <h5 class="white-text">Contatos</h5>
+        <ul class="links-contato">
+          <li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/degemar-pereira-da-silva-464162128/"
+              target="blank"><img src="./linkedin-brands.svg" alt="linkedin-logo" height="50px" width="50px"></a></li>
+          <li><a class="grey-text text-lighten-3" href="https://www.instagram.com/degemar_pereira/"
+              target="blank"><img src="./instagram-square-brands.svg" alt="instagram-logo" height="50px" width="50px"></a></li>
+          <li><a class="grey-text text-lighten-3" href="mailto:degemarpereira@gmail.com"
+              target="blank"><img src="./envelope-solid.svg" alt="email-logo" height="50px" width="50px"></a></li>
+          <li><a class="grey-text text-lighten-3" href="https://github.com/degemarps"
+              target="blank"><img src="./github-brands.svg" alt="github-logo" height="50px" width="50px"></a></li>
+        </ul>
+    </div>
+    <div class="footer-copyright">
       <div class="container">
-        <div class="row">
-          <div class="col l6 s12">
-            <h5 class="white-text">Contatos</h5>
-            <p class="grey-text text-lighten-4">Entrem em contato comigo pelos canais ao lado!</p>
-          </div>
-          <div class="col l4 offset-l2 s12">
-            <h5 class="white-text">Links</h5>
-            <ul>
-              <li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/degemar-pereira-da-silva-464162128/" target="blank">Linkedin</a></li>
-              <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/degemar.pereira.56" target="blank">Facebook</a></li>
-              <li><a class="grey-text text-lighten-3" href="https://www.instagram.com/degemar_pereira/" target="blank">Instagram</a></li>
-              <li><a class="grey-text text-lighten-3" href="mailto:degemarpereira@gmail.com" target="blank">Email</a></li>
-              <li><a class="grey-text text-lighten-3" href="https://github.com/degemarps" target="blank">GitHub</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="footer-copyright">
-        <div class="container">
         © 2021 Copyright Degemar Pereira da Silva
         <a class="grey-text text-lighten-4 right" href=""></a>
-        </div>
       </div>
-    </footer>
-  </body>
+    </div>
+  </footer>
+</body>
+
 </html>

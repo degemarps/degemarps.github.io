@@ -7,6 +7,12 @@ body {
   border-radius: 10%;
 }
 
+#navbar {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
 .nav-wrapper{
   background-color: #039be5;
 }
@@ -30,7 +36,7 @@ body {
 
 #apresentacao {
   margin-bottom: 100px;
-  margin-top: 100px;
+  margin-top: 200px;
 }
 
 .apresentação-container {
@@ -99,6 +105,37 @@ body {
   font-weight: 600;
 }
 
+#projetos {
+  margin-bottom: 150px;
+  margin-top: 200px;
+}
+
+#projetos h2 {
+  text-align: center;
+  font-weight: 600;
+}
+
+.projetos-content {
+  box-shadow: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.projeto {
+  border: 1px #000 solid;
+  padding: 20px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.projeto h3 {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 500;
+}
+
 #contato {
   margin-top: 250px;
 }
@@ -114,6 +151,10 @@ body {
   width: 70%;
   display: flex;
   justify-content: space-around;
+}
+
+.texto-footer {
+  margin-left: 5%;
 }
 
 .page-footer {
